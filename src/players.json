@@ -1,0 +1,28 @@
+{
+    "players": [
+        {
+            "name": "Axe",
+            "hp": 700,
+            "mp": 400,
+            "kills": 50
+        },
+        {
+            "name": "Rubick",
+            "hp": 500,
+            "mp": 300,
+            "kills": 34
+        },
+        {
+            "name": "Meepo",
+            "hp": 600,
+            "mp": 200,
+            "kills": 30
+        },
+        {
+            "name": "Chen",
+            "hp": 450,
+            "mp": 300,
+            "kills": 14
+        }
+    ]
+}
