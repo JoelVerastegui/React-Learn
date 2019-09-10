@@ -14,7 +14,8 @@ class App extends React.Component {
         hp: 0,
         mp: 0,
         kills: 0
-      }
+      },
+      counter: players.length
     }
     this.createHero = this.createHero.bind(this);
     this.handleInput = this.handleInput.bind(this);
@@ -23,7 +24,8 @@ class App extends React.Component {
   createHero(event) {
     event.preventDefault();
     this.setState({
-      players: [...this.state.players, this.state.player]
+      players: [...this.state.players, this.state.player],
+      counter: this.state.players.length
     })
   }
 
@@ -60,7 +62,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="navbar shadow bg-danger text-white d-block text-center h5">
-          First Blood
+          <div className="row">
+            <div className="col-md-auto">
+              <span className="badge badge-light mr-2">{ this.state.counter }</span>
+              Heroes
+            </div>
+            <div className="col">
+              First Blood
+            </div>
+          </div>
         </div>
         <div className="container">
           <div className="row">
