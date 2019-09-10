@@ -1,0 +1,22 @@
+{
+    "players2": [
+        {
+            "name": "Earthshaker",
+            "hp": 700,
+            "mp": 400,
+            "kills": 50
+        },
+        {
+            "name": "Bloodseeker",
+            "hp": 500,
+            "mp": 300,
+            "kills": 34
+        },
+        {
+            "name": "Abaddon",
+            "hp": 600,
+            "mp": 200,
+            "kills": 30
+        }
+    ]
+}
